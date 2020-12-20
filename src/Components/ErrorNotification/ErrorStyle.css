@@ -1,0 +1,22 @@
+.WrapperErrorNotification{
+width: 300px;
+height: 100px;
+display: flex;
+flex-direction: column;
+align-items: center;
+border: 1px solid #000;
+border-radius: 5px;
+box-shadow:0 0 10px rgba(0,0,0,1);
+background-color: #e62828;
+}
+.ErrorTitle{
+ 
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.ErrorText{
+   
+font-size: 16px;
+font-weight: 500;
+}

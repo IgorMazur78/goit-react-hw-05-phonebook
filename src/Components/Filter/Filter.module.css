@@ -1,0 +1,21 @@
+.filter{
+  margin: 10px;
+    width: 300px;
+    height: 120px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,1);
+    background-color: rgb(241, 172, 149);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.filterInput{
+    margin-left: 60px;
+    width: 180px;
+}
+.filterTitle{
+  font-size: 24px;
+    color: #21077c;
+}

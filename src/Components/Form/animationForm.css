@@ -1,0 +1,10 @@
+.phonebook-appear{
+opacity: 0;
+transform: translateX(-100%);
+}
+.phonebook-appear-active
+{
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 500ms linear;
+}

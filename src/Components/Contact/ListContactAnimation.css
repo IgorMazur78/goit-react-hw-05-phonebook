@@ -1,0 +1,28 @@
+.ListContactAnimation-appear{
+opacity: 0;
+transform: translateX(-100%);
+}
+.ListContactAnimation-appear-active{
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 250ms linear;
+}
+.ListContactAnimation-enter{
+    opacity: 0;
+    transform: translateX(-100%);
+    }
+    .ListContactAnimation-enter-active{
+        opacity: 1;
+        transform: translateX(0);
+        transition: all 250ms linear;
+    }
+
+.ListContactAnimation-exit{
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 250ms linear;
+}
+.ListContactAnimation-exit-active{
+    opacity: 0;
+    transform:translateX(-100%);
+}

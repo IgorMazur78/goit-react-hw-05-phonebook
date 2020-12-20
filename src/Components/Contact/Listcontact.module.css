@@ -1,0 +1,41 @@
+ul li {
+
+    list-style: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.ListContactItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    border: 1px solid #000;
+    box-shadow: 0 0 10px rgba(0,0,0,1);
+    background-color: rgb(241, 172, 149);
+    border-radius: 5px;
+    margin: 8px;
+    padding: 5px;
+}
+
+.buttonDeleteContact {
+    border: none;
+    outline: none;
+    background-color:#21077c;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin: 10px
+}
+.buttonDeleteContact:after{
+content: "\2716";
+}
+
+.buttonDeleteContact:hover {
+    
+    background-color: #e70707;
+
+}

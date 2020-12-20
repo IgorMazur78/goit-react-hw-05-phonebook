@@ -1,0 +1,32 @@
+.formStyle{
+    margin: 10px;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,1);
+    background-color: #f1ac95;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formStyleTitle{
+    margin: 0;
+    padding:0;
+    font-size: 24px;
+    color: #21077c;
+}
+.formStyleFormInput{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.formStyleFormButton{
+    width: 180px;
+    margin-left: 60px;
+}
+.formStyleFormButton:hover{
+background: #ee6436
+}
